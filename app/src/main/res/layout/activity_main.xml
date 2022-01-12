@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Давление потребителя, бар:"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/editP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:ems="4"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/textQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Расход, л/мин:"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/editQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:ems="4"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Кинематическая вязкость, мм²/с:"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/editNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="20dp"
+            android:ems="4"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textRo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Плотность жидкости, г/л:"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/editRo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="20dp"
+            android:ems="4"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/main_layout">
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/add_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:text="@string/btn_add_name" />
+        <Button
+            android:id="@+id/calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:text="@string/btn_calc_name" />
+
+</LinearLayout>
+</ScrollView>

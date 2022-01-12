@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pipe Addicted</string>
+    <string name="btn_add_name">Добавить...</string>
+    <string name="btn_calc_name">Рассчитать</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
